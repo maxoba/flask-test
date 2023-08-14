@@ -4,7 +4,7 @@ flask run
 
 To run the tests
 
-pytest
+python3 -m pytest
 
 To bind it to gunicorn
 
