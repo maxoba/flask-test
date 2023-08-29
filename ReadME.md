@@ -1,11 +1,11 @@
-To run the code
+To run the app:
 
-flask run
+"flask run"
 
-To run the tests
+To run the tests:
 
-python3 -m pytest
+"python3 -m pytest"
 
-To bind it to gunicorn
+To bind it to gunicorn:
 
-gunicorn app:app -c gunicorn.py
+"gunicorn app:app -c gunicorn.py"
