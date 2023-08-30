@@ -11,7 +11,7 @@ def add_numbers():
     if request.method == 'POST':
         num1 = int(request.form['num1'])
         num2 = int(request.form['num2'])
-        result = num1 * num2
+        result = num1 + num2
         return render_template('result.html', result=result)
     return render_template('add_numbers.html')
 
